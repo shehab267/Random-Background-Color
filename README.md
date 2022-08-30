@@ -1,6 +1,6 @@
 # Random-Background-Color
 
-Creat a simple formella produce Random-Background-Color Using Vanilla JS
+Creat a simple function produce Random-Background-Color Using Vanilla JS
 
 ## How it work:
 
