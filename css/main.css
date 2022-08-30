@@ -3,7 +3,8 @@
   background-color: #dddddd57;
   height: 450px;
   width: 600px;
-  margin: 0 auto;
+  margin: 50px auto;
+  border-radius: 10px;
 }
 
 .headingSec {
@@ -12,18 +13,20 @@
 }
 
 .title {
-  padding: 15px;
-  width: 165px;
+  padding: 16px;
+  width: 100px;
+  text-align: center;
   background-color: #ffffff;
   border-radius: 7px;
-  /* margin-left: 30px; */
+  font-weight: bold;
 }
 
-.color-btn {
+#color-btn {
   position: relative;
   background-color: #000000;
   border-radius: 10px;
   font-size: 18px;
+  font-weight: bold;
   color: #ffffff;
   padding: 15px;
   width: 165px;
@@ -34,13 +37,14 @@
   cursor: pointer;
 }
 
-.color-btn:hover {
+#color-btn:hover {
   background: #232222;
-  opacity: 0.75;
+  opacity: 0.85;
+  transform: scale(1.1);
   transition: all 0.8s;
 }
 
-.color-btn:active:after {
+#color-btn:active:after {
   padding: 0;
   margin: 0;
   opacity: 1;
